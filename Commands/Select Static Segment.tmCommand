@@ -7,17 +7,17 @@
 	<key>command</key>
 	<string>#!/usr/bin/env bash
 source "$TM_SUPPORT_PATH/lib/bash_init.sh"
-"$TM_BUNDLE_SUPPORT/runner.php" segment delete
+"$TM_BUNDLE_SUPPORT/runner.php" segment select
 </string>
 	<key>input</key>
 	<string>none</string>
 	<key>keyEquivalent</key>
 	<string>^#</string>
 	<key>name</key>
-	<string>Delete Static Segment from List</string>
+	<string>Select Static Segment</string>
 	<key>output</key>
 	<string>showAsHTML</string>
 	<key>uuid</key>
-	<string>DCBC10BD-3F07-4808-A7E2-765BC27DF608</string>
+	<string>7727C32D-7C7E-4D3A-983C-44B1DA63A1E8</string>
 </dict>
 </plist>
