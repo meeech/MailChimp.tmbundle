@@ -34,6 +34,7 @@ class mConfig {
     var $api_key = null;
     var $campaign_id = null;
     var $list_id = null;
+    var $segment_id = null;
     
     // Currently useful in the context of working with Templates - not campaigns.
     var $template_id = null;
@@ -84,7 +85,7 @@ class mConfig {
      * @return void
      **/
     public function save() {
-        $to_write = array('api_key', 'campaign_id', 'list_id', 'template_id');
+        $to_write = array('api_key', 'campaign_id', 'list_id', 'template_id', 'segment_id');
         $output = '';
         foreach ($to_write as $key) {
             if(is_null($this->{$key})) { continue; }
